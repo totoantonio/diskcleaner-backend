@@ -9,6 +9,18 @@
     <language>en</language>
 
     <item>
+      <title>DiskCleaner 26.1.1.0 (Build 16)</title>
+      <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
+      <sparkle:version>16</sparkle:version>
+      <sparkle:shortVersionString>26.1.1.0</sparkle:shortVersionString>
+      <enclosure
+        url="https://www.diskcleaner.pro/downloads/DiskCleaner-macOS.dmg"
+        length="2210671"
+        type="application/octet-stream"
+        sparkle:edSignature="l0gtj/SH7979/d5IvYVu2Ya/UY7Ch5iE+I28Sq3j3ox+JeVfw2TSx4nW5ojgJHONearl1ZFIZ6hQeYRSwqJoCA==" />
+    </item>
+
+    <item>
       <title>DiskCleaner 26.1.1.0</title>
       <pubDate>Tue, 26 May 2026 10:00:00 +0000</pubDate>
       <sparkle:version>15</sparkle:version>
