@@ -20,9 +20,9 @@
 
       <enclosure
         url="https://github.com/totoantonio/diskcleaner-app/releases/download/v26.1.0.0/DiskCleaner-macOS.dmg"
-        length="2207730"
+        length="2209453"
         type="application/octet-stream"
-        sparkle:edSignature="REPLACE_WITH_OUTPUT_FROM_SIGN_UPDATE" />
+        sparkle:edSignature="7hyjpwt7FnBEURqstvW4B/INoHuPvnCvWRy+AA9GZ47YffzH7hNBhLzp2a0ZnDCUHXlTziJSnj1m3Ro8nxrqAQ==" />
     </item>
   </channel>
 </rss>
