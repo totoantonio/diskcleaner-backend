@@ -9,6 +9,23 @@
     <language>en</language>
 
     <item>
+      <title>DiskCleaner 26.1.1.0</title>
+      <pubDate>Tue, 26 May 2026 10:00:00 +0000</pubDate>
+
+      <!-- Must be integer build number (CFBundleVersion) -->
+      <sparkle:version>15</sparkle:version>
+
+      <!-- Human-visible version (CFBundleShortVersionString) -->
+      <sparkle:shortVersionString>26.1.1.0</sparkle:shortVersionString>
+
+      <enclosure
+        url="https://github.com/totoantonio/diskcleaner-backend/releases/tag/v26.1.1.0"
+        length="2210675"
+        type="application/octet-stream"
+        sparkle:edSignature="KtHbhvAgecCMI2YnF4ujwQ3E1ORr+bcQaVG7evpNovrKWVtVLLa9pOgL6/esOuPUMCg2N8O4iwXVqC0boKEKAA==" />
+    </item>
+
+    <item>
       <title>DiskCleaner 26.1.0.0</title>
       <pubDate>Tue, 26 May 2026 10:00:00 +0000</pubDate>
 
