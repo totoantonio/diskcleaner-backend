@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+     xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>DiskCleaner Updates</title>
+    <link>https://diskcleaner-backend.vercel.app/appcast.xml</link>
+    <description>DiskCleaner release feed</description>
+    <language>en</language>
+
+    <item>
+      <title>Version 1.0.0</title>
+      <sparkle:version>100</sparkle:version>
+      <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+      <pubDate>Tue, 26 May 2026 01:00:00 +0000</pubDate>
+      <enclosure
+        url="https://github.com/totoantonio/diskcleaner-app/releases/download/v1.0.0/DiskCleaner-macOS.dmg"
+        type="application/octet-stream"
+        length="2207730"
+        sparkle:edSignature="REPLACE_WITH_SPARKLE_SIGNATURE" />
+    </item>
+  </channel>
+</rss>
