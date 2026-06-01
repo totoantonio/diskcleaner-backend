@@ -9,18 +9,20 @@
     <language>en</language>
 
     <item>
-      <title>Version 26.1.1.2</title>
-      <sparkle:version>19</sparkle:version>
-      <sparkle:shortVersionString>26.1.1.2</sparkle:shortVersionString>
-      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
-      <sparkle:releaseNotesLink>https://www.diskcleaner.pro/release-notes</sparkle:releaseNotesLink>
-      <enclosure
-        url="https://www.diskcleaner.pro/downloads/DiskCleaner-macOS.dmg"
-        sparkle:edSignature="wJisIeXWCNg6IHdz+7ZVHeMD8PcTY2JhBJezKzP/MtQv6oXTcAA/7OBJ5LlRLmskKXua0ZG0k4SgQShh22+yBg=="
-        length="3450073"
-        type="application/octet-stream"
-      />
-    </item>
+    <title>Version 26.1.1.2</title>
+    <sparkle:version>19</sparkle:version>
+    <sparkle:shortVersionString>26.1.1.2</sparkle:shortVersionString>
+    <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[
+        <ul>
+            <li>New: Time Machine Snapshots scanning and cleaning (Premium)</li>
+            <li>New: Old Installers detection — DMG, PKG, ISO files (Premium)</li>
+            <li>Improved: Spring animations and frosted glass sidebar</li>
+            <li>Fix: Clicking a folder header now selects/deselects all items at once</li>
+        </ul>
+    ]]></description>
+    <enclosure url="https://www.diskcleaner.pro/downloads/DiskCleaner-macOS.dmg" sparkle:edSignature="DdzQdRbBpvj6MucFxjtigGLklPmi/KP58qMxWA5ZFJx/Om8+0boOqdcyuCH/WGOCkGvD93SZ1W1wtvMHcOIuBQ==" length="3450077" type="application/octet-stream"/>
+</item>
 
     <item>
       <title>DiskCleaner 26.1.1.2</title>
