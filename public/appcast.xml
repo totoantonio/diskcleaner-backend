@@ -7,6 +7,25 @@
     <link>https://diskcleaner-backend.vercel.app/appcast.xml</link>
     <description>DiskCleaner release feed</description>
     <language>en</language>
+    
+    <item>
+        <title>Version 26.1.1.3</title>
+        <sparkle:version>20</sparkle:version>
+        <sparkle:shortVersionString>26.1.1.3</sparkle:shortVersionString>
+        <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
+        <description><![CDATA[
+            <ul>
+                <li>Improved: Smoother scanning and cleaning progress with fewer layout jumps.</li>
+                <li>Improved: Active scan and cleanup views now keep stable gauge, row, and text areas during progress updates.</li>
+                <li>New: Post-cleanup summary now shows an after-cleanup sunburst and cleaned location breakdown.</li>
+                <li>Improved: Cleanup wording is clearer and no longer describes Trash moves as immediately “freed” space.</li>
+                <li>Improved: Trash messaging now explains that items are moved to Trash when possible and Trash is not emptied automatically.</li>
+                <li>Fix: Status header no longer leaves ghosted text during scan and cleanup transitions.</li>
+                <li>Improved: Routine cleanup and diagnostics console logging is quieter by default.</li>
+            </ul>
+        ]]></description>
+        <enclosure url="https://www.diskcleaner.pro/downloads/DiskCleaner-macOS.dmg" sparkle:edSignature="lzjuaK7xmZ0JAyVEorNlEKRbCVIe9l2V4EZkaovxspCjKCxe8DR60DriueQddszzpuWKvTIkhMJxDSYl8XZ5AA==" length="10167106" type="application/octet-stream"/>
+    </item>
 
     <item>
     <title>Version 26.1.1.2</title>
