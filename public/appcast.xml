@@ -7,117 +7,22 @@
     <link>https://diskcleaner-backend.vercel.app/appcast.xml</link>
     <description>DiskCleaner release feed</description>
     <language>en</language>
-    
+
     <item>
-    <title>Version 26.1.1.4</title>
-    <sparkle:version>21</sparkle:version>
-    <sparkle:shortVersionString>26.1.1.4</sparkle:shortVersionString>
-    <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[
+      <title>Version 26.1.1.4</title>
+      <sparkle:version>21</sparkle:version>
+      <sparkle:shortVersionString>26.1.1.4</sparkle:shortVersionString>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
         <ul>
-            <li>New: DNS Refresh now shows Wi-Fi strength, link speed, and DNS server details.</li>
-            <li>Improved: DNS Refresh loads network diagnostics in the background for faster display.</li>
-            <li>Improved: Menu bar Open DiskCleaner now focuses the existing app window instead of opening a duplicate.</li>
-            <li>Fix: Reduced cleaning UI stalls by pausing Trash monitoring during cleanup.</li>
-            <li>Fix: Skips unreadable Trash roots to avoid repeated permission errors.</li>
+          <li>New: DNS Refresh now shows Wi-Fi strength, link speed, and DNS server details.</li>
+          <li>Improved: DNS Refresh loads network diagnostics in the background for faster display.</li>
+          <li>Improved: Menu bar Open DiskCleaner now focuses the existing app window instead of opening a duplicate.</li>
+          <li>Fix: Reduced cleaning UI stalls by pausing Trash monitoring during cleanup.</li>
+          <li>Fix: Skips unreadable Trash roots to avoid repeated permission errors.</li>
         </ul>
-    ]]></description>
-    <enclosure url="https://www.diskcleaner.pro/downloads/DiskCleaner-macOS.dmg" sparkle:edSignature="lzjuaK7xmZ0JAyVEorNlEKRbCVIe9l2V4EZkaovxspCjKCxe8DR60DriueQddszzpuWKvTIkhMJxDSYl8XZ5AA==" length="10167106" type="application/octet-stream"/>
-</item>
-    
-    <item>
-        <title>Version 26.1.1.3</title>
-        <sparkle:version>20</sparkle:version>
-        <sparkle:shortVersionString>26.1.1.3</sparkle:shortVersionString>
-        <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
-        <description><![CDATA[
-            <ul>
-                <li>Improved: Smoother scanning and cleaning progress with fewer layout jumps.</li>
-                <li>Improved: Active scan and cleanup views now keep stable gauge, row, and text areas during progress updates.</li>
-                <li>New: Post-cleanup summary now shows an after-cleanup sunburst and cleaned location breakdown.</li>
-                <li>Improved: Cleanup wording is clearer and no longer describes Trash moves as immediately “freed” space.</li>
-                <li>Improved: Trash messaging now explains that items are moved to Trash when possible and Trash is not emptied automatically.</li>
-                <li>Fix: Status header no longer leaves ghosted text during scan and cleanup transitions.</li>
-                <li>Improved: Routine cleanup and diagnostics console logging is quieter by default.</li>
-            </ul>
-        ]]></description>
-        <enclosure url="https://www.diskcleaner.pro/downloads/DiskCleaner-macOS.dmg" sparkle:edSignature="lzjuaK7xmZ0JAyVEorNlEKRbCVIe9l2V4EZkaovxspCjKCxe8DR60DriueQddszzpuWKvTIkhMJxDSYl8XZ5AA==" length="10167106" type="application/octet-stream"/>
-    </item>
-
-    <item>
-    <title>Version 26.1.1.2</title>
-    <sparkle:version>19</sparkle:version>
-    <sparkle:shortVersionString>26.1.1.2</sparkle:shortVersionString>
-    <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[
-        <ul>
-            <li>New: Time Machine Snapshots scanning and cleaning (Premium)</li>
-            <li>New: Old Installers detection — DMG, PKG, ISO files (Premium)</li>
-            <li>Improved: Spring animations and frosted glass sidebar</li>
-            <li>Fix: Clicking a folder header now selects/deselects all items at once</li>
-        </ul>
-    ]]></description>
-    <enclosure url="https://www.diskcleaner.pro/downloads/DiskCleaner-macOS.dmg" sparkle:edSignature="DdzQdRbBpvj6MucFxjtigGLklPmi/KP58qMxWA5ZFJx/Om8+0boOqdcyuCH/WGOCkGvD93SZ1W1wtvMHcOIuBQ==" length="3450077" type="application/octet-stream"/>
-</item>
-
-    <item>
-      <title>DiskCleaner 26.1.1.2</title>
-      <sparkle:version>18</sparkle:version>
-      <sparkle:shortVersionString>26.1.1.2</sparkle:shortVersionString>
-      <pubDate>Sun, 31 May 2026 00:00:00 +0800</pubDate>
-      <enclosure
-        url="https://www.diskcleaner.pro/downloads/DiskCleaner-macOS.dmg"
-        length="3423926"
-        type="application/octet-stream"
-        sparkle:edSignature="hnDcJcpA2FB06MQxZ1Ca6y9mTvcwm1lw/CGGhCD82eZVtlioZpMVGQ8j/x5dEgerT2Wl09zDc0S0L9pXI/BzDA==" />
-    </item>
-
-    <item>
-      <title>DiskCleaner 26.1.1.1 (Build 17)</title>
-      <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
-      <sparkle:version>17</sparkle:version>
-      <sparkle:shortVersionString>26.1.1.1</sparkle:shortVersionString>
-      <enclosure
-        url="https://www.diskcleaner.pro/downloads/DiskCleaner-macOS.dmg"
-        length="3099435"
-        type="application/octet-stream"
-        sparkle:edSignature="RL3+WP1QWIkFUiqUGgyyRhvceSvD5kZxAorbJA1AvYDnau1uqizwMsibuSlYfByN0jrPjxvE820XNWMIKjtxBw==" />
-    </item>
-
-    <item>
-      <title>DiskCleaner 26.1.1.0 (Build 16)</title>
-      <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
-      <sparkle:version>16</sparkle:version>
-      <sparkle:shortVersionString>26.1.1.0</sparkle:shortVersionString>
-      <enclosure
-        url="https://www.diskcleaner.pro/downloads/DiskCleaner-macOS.dmg"
-        length="2210671"
-        type="application/octet-stream"
-        sparkle:edSignature="l0gtj/SH7979/d5IvYVu2Ya/UY7Ch5iE+I28Sq3j3ox+JeVfw2TSx4nW5ojgJHONearl1ZFIZ6hQeYRSwqJoCA==" />
-    </item>
-
-    <item>
-      <title>DiskCleaner 26.1.1.0</title>
-      <pubDate>Tue, 26 May 2026 10:00:00 +0000</pubDate>
-      <sparkle:version>15</sparkle:version>
-      <sparkle:shortVersionString>26.1.1.0</sparkle:shortVersionString>
-      <enclosure
-        url="https://www.diskcleaner.pro/downloads/DiskCleaner-macOS.dmg"
-        length="2210675"
-        type="application/octet-stream"
-        sparkle:edSignature="KtHbhvAgecCMI2YnF4ujwQ3E1ORr+bcQaVG7evpNovrKWVtVLLa9pOgL6/esOuPUMCg2N8O4iwXVqC0boKEKAA==" />
-    </item>
-
-    <item>
-      <title>DiskCleaner 26.1.0.0</title>
-      <pubDate>Tue, 26 May 2026 10:00:00 +0000</pubDate>
-      <sparkle:version>14</sparkle:version>
-      <sparkle:shortVersionString>26.1.0.0</sparkle:shortVersionString>
-      <enclosure
-        url="https://github.com/totoantonio/diskcleaner-app/releases/download/v26.1.0.0/DiskCleaner-macOS.dmg"
-        length="2209453"
-        type="application/octet-stream"
-        sparkle:edSignature="7hyjpwt7FnBEURqstvW4B/INoHuPvnCvWRy+AA9GZ47YffzH7hNBhLzp2a0ZnDCUHXlTziJSnj1m3Ro8nxrqAQ==" />
+      ]]></description>
+      <enclosure url="https://www.diskcleaner.pro/downloads/DiskCleaner-macOS.dmg" sparkle:edSignature="lzjuaK7xmZ0JAyVEorNlEKRbCVIe9l2V4EZkaovxspCjKCxe8DR60DriueQddszzpuWKvTIkhMJxDSYl8XZ5AA==" length="10167106" type="application/octet-stream"/>
     </item>
   </channel>
 </rss>
