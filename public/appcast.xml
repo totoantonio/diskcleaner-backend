@@ -9,6 +9,53 @@
     <language>en</language>
     
     <item>
+        <title>Version 26.1.1.5</title>
+
+        <sparkle:version>22</sparkle:version>
+
+        <sparkle:shortVersionString>26.1.1.5</sparkle:shortVersionString>
+
+        <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
+
+        <description><![CDATA[
+            <h3>Added</h3>
+            <ul>
+                <li>Added live Network Status cards for Wi-Fi strength, link speed, and DNS server information.</li>
+                <li>Added loading animations while network diagnostics are being measured.</li>
+                <li>Added background network diagnostics preload when DiskCleaner starts.</li>
+                <li>Added direct-to-Trash fallback handling for faster app uninstall cleanup.</li>
+            </ul>
+
+            <h3>Improved</h3>
+            <ul>
+                <li>Made Quick Scan faster with a smaller, optimized scan task set.</li>
+                <li>Reduced disk pressure during Deep Scan.</li>
+                <li>Improved scan animation, spinner, layout, and progress smoothness.</li>
+                <li>Switching between Quick Scan and Deep Scan no longer starts a scan automatically.</li>
+                <li>Improved iCloud handling by skipping unavailable or actively downloading files.</li>
+                <li>Improved recurring license validation without consuming additional activation seats.</li>
+                <li>Improved menu bar window handling so Open DiskCleaner focuses the existing window.</li>
+            </ul>
+
+            <h3>Fixed</h3>
+            <ul>
+                <li>Fixed Trash monitoring and snapshot refresh causing stalls or interface jumps during cleaning.</li>
+                <li>Fixed repeated scanning of unreadable Trash locations.</li>
+                <li>Fixed app uninstall cleanup falling back too quickly instead of moving apps directly to Trash.</li>
+                <li>Fixed heavy folder calculations and Time Machine snapshot operations affecting scan responsiveness.</li>
+                <li>Removed unnecessary scan and cleaning diagnostic messages from console output.</li>
+            </ul>
+        ]]></description>
+
+        <enclosure
+            url="https://www.diskcleaner.pro/downloads/DiskCleaner-26.1.1.5.dmg"
+            sparkle:edSignature="YyEqGO8mt1S4WLYVCmXb1V+9MbkFAIApVNcQoFVT1nRFnKwy7cP37DYiJIV2tqrUlTGe0tI8dPAJlrY0nRzyBg=="
+            length="10226229"
+            type="application/octet-stream"
+        />
+    </item>
+
+    <item>
     <title>Version 26.1.1.4</title>
     <sparkle:version>21</sparkle:version>
     <sparkle:shortVersionString>26.1.1.4</sparkle:shortVersionString>
