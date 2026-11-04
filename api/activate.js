@@ -1,3 +1,6 @@
+const STORE_ID = 299929;   // cleandiskmac
+const PRODUCT_ID = 1090440; // DiskCleaner
+
 module.exports = async function handler(req, res) {
   // Only allow POST
   if (req.method !== "POST") {
@@ -27,7 +30,8 @@ module.exports = async function handler(req, res) {
     const data = await response.json();
 
     // Only return safe info to the app — never expose raw LemonSqueezy response
-    if (data.activated === true || data.license?.status === "active") {
+    const ok = data.meta?.store_id === STORE_ID && data.meta?.product_id === PRODUCT_ID;
+    if (ok && data.activated === true) {
       return res.status(200).json({ valid: true });
     } else {
       return res.status(200).json({ valid: false, reason: data.error || "Invalid key" });
