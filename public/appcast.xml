@@ -9,6 +9,35 @@
     <language>en</language>
     
     <item>
+        <title>Version 26.1.1.7</title>
+        <pubDate>Sun, 15 Nov 2026 10:10:00 +0000</pubDate>
+        <sparkle:version>24</sparkle:version>
+        <sparkle:shortVersionString>26.1.1.7</sparkle:shortVersionString>
+        <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+        <description><![CDATA[
+            <h3>New</h3>
+            <ul>
+                <li>A redesigned Uninstaller: search your apps, sort by size, and review everything on one screen before it moves to Trash.</li>
+                <li>A cleaner look across the app, with a choice of font in Settings.</li>
+                <li>A refreshed About window and license screen.</li>
+                <li>The window can now be resized.</li>
+            </ul>
+            <h3>Fixed</h3>
+            <ul>
+                <li>Your Pro license now stays active when your Mac is offline.</li>
+                <li>Cancel now stops a clean right away.</li>
+                <li>Caches you untick now stay on your Mac.</li>
+                <li>Removed cleanup options for files that can't be safely rebuilt.</li>
+            </ul>
+            <h3>Changed</h3>
+            <ul>
+                <li>RAM Optimizer is now Memory Monitor, a live read-only view of your Mac's memory.</li>
+            </ul>
+        ]]></description>
+        <enclosure url="https://totoantonio-updates.pages.dev/diskcleaner/DiskCleaner-26.1.1.7.dmg" length="10185180" type="application/octet-stream" sparkle:edSignature="CcmmPCijJww6jzLcS3DNiXaxOJkqeRbYp3j13G+SEzhErJ4dV/BtwfMFRNVVTJwbjsnLDd/U93ZbkL8I/jxYDg=="/>
+    </item>
+
+    <item>
         <title>Version 26.1.1.5</title>
 
         <sparkle:version>22</sparkle:version>
